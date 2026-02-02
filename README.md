@@ -1,21 +1,36 @@
 # Bosch-BMEX-Library
+[![Static Badge](https://img.shields.io/badge/BMEX_For_Arduino-blue?style=for-the-badge&logo=bosch&logoColor=red&logoSize=auto&labelColor=%23efefef)](https://github.com/markdlehane/Bosch-BMEX-Library/)
 
-Library and sample code for Bosch Sensortec BME280, BME680 &amp; BME688 Sensors.
+## Description
 
-### Copyright (c) 2021 Mark D Lehane. All rights reserved.
+The Bosch Sensortec BME280, BME680 and BME688 sensor system brings a wide range of accurate sensor facilities in small, efficient packages.  This library helps tap into the power offered by these devices without requiring a large investment in time and resources. The lirbary provides simple controls to enable quick turn around for a project.
 
-- Name    : Bosch-BMEX-Library.
-- Date    : 01/02/2026
-- Licence : The MIT Licence.
-- Usage   : Library and sample code for Bosch Sensortec BME280, BME680 & BME688 Sensors.
+### Facilities
 
-### Licence:
+The library facilitates the connection and control of any of the BME280, BME680 and BME688 devices and provides simple interfaces for measuring temperature, pressurere, humidity and precision gas detection, depending on your chosen device.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### Connections
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Designed to use either I2C or SPI bus, this software provides simple connectivity methods to get you up and running quickly. The I2C connection requries 2 pins - serial data and serial clock. The SPI connection requires 4 pins - chip select, serial in, serial out and serial clock. Both implementations additionally required Vcc and GND.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Datasheets
+
+The datasheets of the devices that are supported can be found below:
+
+- [BME280 Combined humidity and pressure sensor.](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)
+- [BME680 Low power gas, pressure, temperature & humidity sensor.](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf)
+- [BME688 Digital low power gas, pressure, temperature & humidity sensor with AI.](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf)
+
+## Interfaces
+
+The libraries can be used through a C interface or a C++ class according to the desires and requirements of your project. Each interface is detailed below.
+
+### C interface library.
+
+[tbd]
+
+### C++ class library.
+
+[tbd]
 
 ### End.
